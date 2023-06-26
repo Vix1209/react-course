@@ -7,7 +7,8 @@ import reportWebVitals from './reportWebVitals';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* the attribute 'title' below is seen as a prop  */}
+    <App title = '(--I am a prop declared from Index.js into the app.js file--)'/> 
   </React.StrictMode>
 );
 
